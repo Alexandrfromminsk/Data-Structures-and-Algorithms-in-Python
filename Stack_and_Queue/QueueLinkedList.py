@@ -35,13 +35,13 @@ class QueueLinkedList:
         return ans
     
     def enqueue(self, e):
-        newest=_Node(e, None)
+        newest=self._Node(e, None)
         if self.is_empty():
             self.head=newest
         else:
             self.tail._next=newest
         self.tail=newest
-        self._size+=1
+        self.size+=1
 
 
     
