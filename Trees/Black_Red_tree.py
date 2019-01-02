@@ -6,6 +6,6 @@
 from Trees import TreeMap
 
 class RedBlackTreeMap(TreeMap):
-    ”””Sorted map implementation using a red - black  tree.”””
+    #”””Sorted map implementation using a red - black  tree.”””
     class _Node(TreeMap._Node):
         __slots__= '_red'
